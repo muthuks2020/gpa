@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/HelveticaNeue.ttc") format("ttc"); /* IE9 Compat Modes */
+}
+body {
+  font-family: "HelveticaNeue";
+  margin: 0;
+}

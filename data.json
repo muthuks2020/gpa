@@ -1,0 +1,54 @@
+{
+  "user_id": 1,
+  "persona_type": "Super Admin",
+  "accessibleFeatures": {
+    "Invite New User": {
+      "User Type": [
+        "Regional Admin",
+        "Harvest Planner",
+        "Ranch Admin",
+        "Ranch Planner"
+      ],
+      "Personal Information": {
+        "Regional Admin": [
+          "First Name",
+          "Last Name",
+          "Mobile",
+          "Location",
+          "Language"
+        ],
+        "Harvest Planner": ["First Name", "Last Name", "Mobile", "Location"],
+        "Ranch Admin": [
+          "First Name",
+          "Last Name",
+          "Mobile",
+          "Location",
+          "Language",
+          "Job Title"
+        ],
+        "Ranch Planner": [
+          "First Name",
+          "Last Name",
+          "Mobile",
+          "Location",
+          "Language",
+          "Job Title",
+          "Assigned Ranches",
+          "Message Settings"
+        ]
+      },
+      "Assignment": {
+        "Regional Admin": ["District"],
+        "Harvest Planner": ["District", "Berry"],
+        "Ranch Admin": ["District", "Company"],
+        "Ranch Planner": ["District", "Company", "Ranch"]
+      }
+    },
+    "Manage User": {},
+    "FAQ": ["create", "view"],
+    "Reminder Time": ["create", "view"],
+    "Reports": null,
+    "canDelete": true,
+    "canDeactivate": true
+  }
+}
